@@ -1,5 +1,6 @@
 def city():
-    city = input("Which city do you want weather for?")
-    print(f'The city you want weather for is: {city}') 
+    city_name = input("Which city do you want weather for? ")
+    return city_name
 
-city()
+selected_city = city()
+print(f'{selected_city} selected as city for weather.') 
